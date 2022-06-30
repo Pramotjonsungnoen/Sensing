@@ -1,5 +1,5 @@
 Blockly.Python['map'] = function(block) {
-Blockly.Python.definitions_['add_def'] = 'def map(value, istart, istop, ostart, ostop):\r\n\treturn (value - istar) * (ostop - ostart) / (istop - istart) ostart ';
+Blockly.Python.definitions_['add_def'] = 'def map(value, istart, istop, ostart, ostop):\r\n\treturn (value - istart) * (ostop - ostart) / (istop - istart) + ostart ';
 
   //var dropdown_trig = block.getFieldValue('trig');
   var value = Blockly.Python.valueToCode(block, 'value', Blockly.Python.ORDER_ATOMIC);
