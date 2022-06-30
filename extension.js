@@ -1,6 +1,6 @@
 ({
-    name: "sensing map", // Category Name
-    description: "Get  distance from  sensing",
+    name: "map", // Category Name
+    description: "Get map",
     author: "mazlogyzop",
     category: "Sensors",
     version: "1.0.1",
@@ -9,7 +9,7 @@
     blocks: [ // Blocks in Category
         {
             xml: `
-                <block type="sen">
+                <block type="map">
                     <value name="value">
                         <shadow type="math_number">
                             <field name="NUM">32</field>
