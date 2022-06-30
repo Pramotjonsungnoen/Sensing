@@ -1,6 +1,6 @@
 ({
-    name: "analog electronics", // Category Name
-    description: "Get  distance from  analog-read",
+    name: "sensing map", // Category Name
+    description: "Get  distance from  sensing",
     author: "mazlogyzop",
     category: "Sensors",
     version: "1.0.1",
@@ -9,18 +9,28 @@
     blocks: [ // Blocks in Category
         {
             xml: `
-                <block type="adc">
-                    <value name="trig">
+                <block type="sen">
+                    <value name="value">
                         <shadow type="math_number">
                             <field name="NUM">32</field>
                         </shadow>
                     </value>
-                    <value name="data">
+                    <value name="ostart">
                         <shadow type="math_number">
                             <field name="NUM">10</field>
                         </shadow>
                     </value>
-                    <value name="trim">
+                    <value name="ostop">
+                        <shadow type="math_number">
+                            <field name="NUM">10</field>
+                        </shadow>
+                    </value>
+                    <value name="istop">
+                        <shadow type="math_number">
+                            <field name="NUM">10</field>
+                        </shadow>
+                    </value>
+                    <value name="istart">
                         <shadow type="math_number">
                             <field name="NUM">10</field>
                         </shadow>

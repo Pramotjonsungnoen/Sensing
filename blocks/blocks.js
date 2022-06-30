@@ -17,7 +17,7 @@ Blockly.defineBlocksWithJsonArray([
       "name": "sort"
     }*/
  // ]
- "type": "adc",
+ "type": "sen",
  "message0": "ostart %1 + (ostop %2 - ostart %3 * value %4 - istart %5 / istop %6 - istart %7 )",
  "args0": [
    {
