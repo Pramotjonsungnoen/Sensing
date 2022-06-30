@@ -18,7 +18,7 @@ Blockly.defineBlocksWithJsonArray([
     }*/
  // ]
  "type": "sen",
- "message0": " value %1  (istart %2  istop %3  ostart %4  ostop %5)  ",
+ "message0": "value %1  (istart %2  istop %3  ostart %4  ostop %5)  ",
  "args0": [
    {
     "type": "input_value",
