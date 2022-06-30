@@ -18,35 +18,27 @@ Blockly.defineBlocksWithJsonArray([
     }*/
  // ]
  "type": "sen",
- "message0": "ostart %1 + ostop %2 - ostart %3 * value %4 - istart %5 / istop %6 - istart %7 ",
+ "message0": " map value %1  istart %2  istop %3  ostart %4  ostop %5   ",
  "args0": [
-   {
-     "type": "input_value",
-     "name": "ostart"
-   },
-   {
-     "type": "input_value",
-     "name": "ostop"
-   },
-   {
-     "type": "input_value",
-     "name": "ostart"
-   },
    {
     "type": "input_value",
      "name": "value"
    },
    {
     "type": "input_value",
-     "name": "istart"
+    "name": "istart"
    },
    {
     "type": "input_value",
-     "name": "istop"
+    "name": "istop"
    },
    {
     "type": "input_value",
-     "name": "istart"
+    "name": "ostart"
+   },
+   {
+    "type": "input_value",
+     "name": "ostop"
    }
   ],
   "output": "Number",
