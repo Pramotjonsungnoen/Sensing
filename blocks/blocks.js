@@ -18,19 +18,35 @@ Blockly.defineBlocksWithJsonArray([
     }*/
  // ]
  "type": "adc",
- "message0": "analog read pin %1  (Data: %2  Trim: %3 %)",
+ "message0": "ostart %1 + (ostop %2 - ostart %3 * value %4 - istart %5 / istop %6 - istart %7 )",
  "args0": [
    {
      "type": "input_value",
-     "name": "trig"
+     "name": "ostart"
    },
    {
      "type": "input_value",
-     "name": "data"
+     "name": "ostop"
    },
    {
      "type": "input_value",
-     "name": "trim"
+     "name": "ostart"
+   },
+   {
+    "type": "input_value",
+     "name": "value"
+   },
+   {
+    "type": "input_value",
+     "name": "istart"
+   },
+   {
+    "type": "input_value",
+     "name": "istop"
+   },
+   {
+    "type": "input_value",
+     "name": "istart"
    }
   ],
   "output": "Number",
