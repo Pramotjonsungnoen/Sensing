@@ -18,7 +18,7 @@ Blockly.defineBlocksWithJsonArray([
     }*/
  // ]
  "type": "map",
- "message0": "value %1  (istart %2  istop %3  ostart %4  ostop %5)  ",
+ "message0": "map %1  ( for low%2  high %3  to low %4  high %5)  ",
  "args0": [
    {
     "type": "input_value",
