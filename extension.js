@@ -1,6 +1,6 @@
 ({
-    name: "Map", // Category Name
-    description: " Get map ",
+    name: "Function Map", // Category Name
+    description: " Get Function map ",
     author: "mazlogyzop",
     category: "Sensors",
     version: "1.0.1",
