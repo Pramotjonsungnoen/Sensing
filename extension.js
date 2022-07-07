@@ -3,7 +3,7 @@
     description: " Get Function map ",
     author: "mazlogyzop",
     category: "Sensors",
-    version: "1.0.1",
+    version: "1.0.2",
     icon: "/static/analog.png", // Category icon
     color: "#004098", // Category color (recommend some blocks color)
     blocks: [ // Blocks in Category
